@@ -1,0 +1,25 @@
+{
+  "name": "mini-roan-md",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot — Web Pairing Interface. Dev: MR ROAN",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": ["whatsapp-bot", "baileys", "pairing-code", "web", "mini-roan-md"],
+  "author": "𝗠𝗥 𝗥𝗢𝗔𝗡",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "latest",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "pino": "^9.5.0"
+  }
+}
